@@ -1,1 +1,4 @@
-#demo for merge conflicts
+=======
+df=spark.sql("select * from ims_ingestion")
+df.registerTempTable('ims')
+
